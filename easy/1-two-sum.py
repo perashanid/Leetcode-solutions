@@ -6,40 +6,30 @@ Link: https://leetcode.com/problems/two-sum/
 Date: 2025-10-10
 """
 
-# Time Complexity: O(n), where n is the length of the nums array.
-# This is because, in the worst-case scenario, we iterate through the entire array once.
-# Space Complexity: O(n), where n is the length of the nums array.
-# This is because, in the worst-case scenario, we store all the elements of the array in the hash map.
+# Time Complexity: O(n) - We iterate through the list once.
+# Space Complexity: O(n) - In the worst case, we store all the numbers in the hash map.
+class Solution:
+    def twoSum(self, nums: list[int], target: int) -> list[int]:
+        """
+        Finds two numbers in the given list that add up to the target.
 
-def twoSum(nums: list[int], target: int) -> list[int]:
-    """
-    Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
-    You may assume that each input would have exactly one solution, and you may not use the same element twice.
-    You can return the answer in any order.
+        Args:
+            nums (List[int]): A list of integers.
+            target (int): The target sum.
 
-    Args:
-        nums (list[int]): An array of integers.
-        target (int): The target sum.
+        Returns:
+            List[int]: A list containing the indices of the two numbers that add up to the target.
+                       Returns an empty list if no such pair exists.
+        """
+        num_map = {}  # Create a hash map to store numbers and their indices.
 
-    Returns:
-        list[int]: A list of two indices that add up to the target.
-    """
+        for index, num in enumerate(nums):
+            complement = target - num  # Calculate the complement needed to reach the target.
 
-    # Create a hash map to store each number and its index.
-    num_map = {}
+            if complement in num_map:  # Check if the complement exists in the hash map.
+                # If the complement exists, return the indices of the current number and its complement.
+                return [num_map[complement], index]
 
-    # Iterate over the nums array.
-    for index, num in enumerate(nums):
-        # Calculate the complement needed to reach the target.
-        complement = target - num
+            num_map[num] = index  # Store the current number and its index in the hash map.
 
-        # Check if the complement exists in the hash map.
-        if complement in num_map:
-            # If the complement exists, return the index of the complement and the current index.
-            return [num_map[complement], index]
-
-        # If the complement does not exist, add the current number and its index to the hash map.
-        num_map[num] = index
-
-    # If no solution is found, return an empty list (this should not happen given the problem constraints).
-    return []
+        return []  # Return an empty list if no solution is found (though the problem statement guarantees a solution).
