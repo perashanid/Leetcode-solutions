@@ -6,43 +6,34 @@ Link: https://leetcode.com/problems/longest-substring-without-repeating-characte
 Date: 2025-10-10
 """
 
-# Time Complexity: O(n), where n is the length of the string s. We iterate through the string at most twice.
-# Space Complexity: O(min(m, n)), where n is the length of the string s and m is the size of the character set.
-# In the worst case, the space is O(n) if all characters are unique. If the character set is limited (e.g., ASCII), it's O(1).
+# Time Complexity: O(n), where n is the length of the string s.
+# Space Complexity: O(min(m, n)), where n is the length of the string s, and m is the size of the character set.
+# In the worst case, the entire string contains unique characters, so the space complexity would be O(n).
+# In the best case, the string has limited unique characters, so the space complexity would be O(m).
+def lengthOfLongestSubstring(s: str) -> int:
+    """
+    Finds the length of the longest substring without repeating characters in a given string.
 
-class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        """
-        Finds the length of the longest substring without repeating characters.
+    Args:
+        s: The input string.
 
-        Args:
-            s: The input string.
+    Returns:
+        The length of the longest substring without repeating characters.
+    """
 
-        Returns:
-            The length of the longest substring without repeating characters.
-        """
+    # Use a sliding window approach to track the current substring.
+    # Use a set to efficiently check for repeating characters.
 
-        # Initialize variables:
-        # - start: The starting index of the current substring.
-        # - max_length: The maximum length of a substring without repeating characters found so far.
-        # - char_index_map: A dictionary to store the most recent index of each character.
+    char_set = set()  # Store characters in the current substring.
+    left = 0  # Left pointer of the sliding window.
+    max_length = 0  # Length of the longest substring found so far.
 
-        start = 0
-        max_length = 0
-        char_index_map = {}
+    for right in range(len(s)):  # Iterate through the string using the right pointer.
+        while s[right] in char_set:  # If the current character is already in the set (repeating).
+            char_set.remove(s[left])  # Remove the leftmost character from the set.
+            left += 1  # Move the left pointer to the right, shrinking the window.
 
-        # Iterate through the string using a sliding window approach:
-        for end in range(len(s)):
-            # If the current character is already in the map and its index is within the current window:
-            if s[end] in char_index_map and char_index_map[s[end]] >= start:
-                # Move the start of the window to the right of the previous occurrence of the character.
-                start = char_index_map[s[end]] + 1
+        char_set.add(s[right])  # Add the current character to the set.
+        max_length = max(max_length, right - left + 1)  # Update the maximum length.
 
-            # Update the index of the current character in the map.
-            char_index_map[s[end]] = end
-
-            # Update the maximum length.
-            max_length = max(max_length, end - start + 1)
-
-        # Return the maximum length.
-        return max_length
+    return max_length
