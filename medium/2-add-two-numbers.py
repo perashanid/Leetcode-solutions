@@ -6,6 +6,9 @@ Link: https://leetcode.com/problems/add-two-numbers/
 Date: 2025-10-10
 """
 
+# Time Complexity: O(max(m, n)), where m and n are the lengths of the input lists.  We iterate at most once through both lists.
+# Space Complexity: O(max(m, n) + 1), primarily due to the creation of the new linked list. In the worst case, the length of the result list is max(m, n) + 1.
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
@@ -13,48 +16,48 @@ class ListNode:
         self.next = next
 
 class Solution:
-    # Time Complexity: O(max(m, n)), where m and n are the lengths of the linked lists.
-    # Space Complexity: O(max(m, n)), for the length of the new list.
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         """
-        Adds two numbers represented by linked lists and returns the sum as a linked list.
+        Adds two numbers represented as linked lists.
 
         Args:
-            l1: The first linked list representing a number.
-            l2: The second linked list representing a number.
+            l1: The first linked list representing a non-negative integer.
+            l2: The second linked list representing a non-negative integer.
 
         Returns:
-            A linked list representing the sum of the two numbers.
+            A new linked list representing the sum of the two input numbers.
         """
 
-        dummy_head = ListNode(0)  # Dummy head to simplify the code
-        current = dummy_head      # Pointer to the current node in the result list
-        carry = 0                 # Carry-over from the previous addition
+        carry = 0  # Initialize carry to 0
+        dummy_head = ListNode(0)  # Create a dummy head node for the result list
+        current = dummy_head  # Initialize a pointer to the current node in the result list
 
-        # Iterate through the linked lists until both are exhausted
+        # Iterate until both lists are exhausted
         while l1 or l2 or carry:
-            # Get the values of the current nodes, or 0 if the list is exhausted
+            # Get the values of the current nodes, if they exist. Otherwise, use 0.
             val1 = l1.val if l1 else 0
             val2 = l2.val if l2 else 0
 
             # Calculate the sum of the current digits and the carry
-            total = val1 + val2 + carry
+            sum_val = val1 + val2 + carry
 
-            # Calculate the carry-over for the next digit
-            carry = total // 10
+            # Update the carry for the next iteration
+            carry = sum_val // 10
 
-            # Calculate the digit for the current node
-            digit = total % 10
+            # Calculate the digit to be added to the result list
+            digit = sum_val % 10
 
-            # Create a new node with the digit and append it to the result list
+            # Create a new node with the digit and add it to the result list
             current.next = ListNode(digit)
+
+            # Move the current pointer to the next node
             current = current.next
 
-            # Move to the next nodes in the input lists, if available
+            # Move to the next nodes in the input lists, if they exist
             if l1:
                 l1 = l1.next
             if l2:
                 l2 = l2.next
 
-        # Return the result list, skipping the dummy head
+        # Return the result list (excluding the dummy head)
         return dummy_head.next
