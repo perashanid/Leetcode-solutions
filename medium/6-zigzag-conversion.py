@@ -6,38 +6,35 @@ Link: https://leetcode.com/problems/zigzag-conversion/
 Date: 2025-10-10
 """
 
-# Time Complexity: O(n), where n is the length of the string s.
-# Space Complexity: O(n), where n is the length of the string s (to store the zigzag pattern).
+# Time Complexity: O(n), where n is the length of the input string s.
+# Space Complexity: O(n), where n is the length of the input string s, due to the storage of rows.
 
-def convert(s: str, numRows: int) -> str:
-    """
-    Converts a string into a zigzag pattern with a given number of rows.
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        """
+        Converts a string into a zigzag pattern based on the given number of rows.
 
-    Args:
-        s: The input string.
-        numRows: The number of rows in the zigzag pattern.
+        Args:
+            s (str): The input string to be converted.
+            numRows (int): The number of rows in the zigzag pattern.
 
-    Returns:
-        The converted string.
-    """
+        Returns:
+            str: The converted string read line by line.
+        """
 
-    if numRows == 1:
-        return s
+        if numRows == 1:
+            return s
 
-    rows = ["" for _ in range(numRows)]  # Initialize a list of strings for each row
-    row_index = 0  # Start at the first row
-    direction = 1  # 1 for down, -1 for up
+        rows = [''] * numRows  # Initialize an empty string for each row.
+        current_row = 0  # Start from the first row.
+        going_down = False  # Initially, the direction is going up.
 
-    for char in s:
-        rows[row_index] += char  # Add the character to the current row
+        for char in s:
+            rows[current_row] += char  # Append the character to the current row.
 
-        row_index += direction  # Move to the next row
+            if current_row == 0 or current_row == numRows - 1:
+                going_down = not going_down  # Change direction at top and bottom rows.
 
-        if row_index == numRows:  # Reached the bottom row
-            row_index = numRows - 2  # Move to the second to last row
-            direction = -1  # Change direction to up
-        elif row_index < 0:  # Reached the top row
-            row_index = 1  # Move to the second row
-            direction = 1  # Change direction to down
+            current_row += 1 if going_down else -1  # Move to the next row in the correct direction.
 
-    return "".join(rows)  # Concatenate all the rows into a single string
+        return ''.join(rows)  # Concatenate the rows to form the result string.
