@@ -7,3 +7,4 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [Solution](medium\7-reverse-integer.py) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Solution](medium\8-string-to-integer-atoi.py) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [Solution](medium/151-reverse-words-in-a-string.py) |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [Solution](medium/162-find-peak-element.py) |
