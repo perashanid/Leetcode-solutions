@@ -7,7 +7,7 @@ Date: 2025-10-10
 """
 
 # Time Complexity: O(n), where n is the length of the string s.
-# Space Complexity: O(min(m, n)), where n is the length of the string s, and m is the size of the character set (e.g., 26 for English alphabets).
+# Space Complexity: O(min(m, n)), where n is the length of the string s, and m is the size of the character set.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         """
@@ -20,23 +20,27 @@ class Solution:
             The length of the longest substring without repeating characters.
         """
 
-        # Use a sliding window approach with a set to keep track of characters in the current window.
+        # Create a set to store the characters in the current window.
         char_set = set()
-        left = 0  # Left pointer of the sliding window
-        max_length = 0  # Maximum length of the substring found so far
 
-        # Iterate through the string with the right pointer of the sliding window.
-        for right in range(len(s)):
-            # If the current character is already in the set, it means we have a repeating character.
-            while s[right] in char_set:
-                # Remove the leftmost character from the set and move the left pointer.
+        # Initialize the left and right pointers of the sliding window.
+        left = 0
+        right = 0
+
+        # Initialize the maximum length of the substring without repeating characters.
+        max_length = 0
+
+        # Iterate over the string.
+        while right < len(s):
+            # If the current character is not in the set, add it to the set and move the right pointer.
+            if s[right] not in char_set:
+                char_set.add(s[right])
+                max_length = max(max_length, right - left + 1)
+                right += 1
+            # If the current character is in the set, remove the character at the left pointer from the set and move the left pointer.
+            else:
                 char_set.remove(s[left])
                 left += 1
 
-            # Add the current character to the set.
-            char_set.add(s[right])
-
-            # Update the maximum length with the current window size (right - left + 1).
-            max_length = max(max_length, right - left + 1)
-
+        # Return the maximum length.
         return max_length
