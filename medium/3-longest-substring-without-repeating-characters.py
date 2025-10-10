@@ -3,11 +3,13 @@ Problem: Longest Substring Without Repeating Characters
 Number: 3
 Difficulty: Medium
 Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
-Date: 2025-10-09
+Date: 2025-10-10
 """
 
-# Time Complexity: O(n), where n is the length of the string s.
-# Space Complexity: O(min(m, n)), where n is the length of the string s and m is the size of the character set (e.g., 26 for English alphabets, 128 for ASCII, 256 for extended ASCII).
+# Time Complexity: O(n), where n is the length of the string s. We iterate through the string at most twice.
+# Space Complexity: O(min(m, n)), where n is the length of the string s and m is the size of the character set.
+# In the worst case, the space is O(n) if all characters are unique. If the character set is limited (e.g., ASCII), it's O(1).
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         """
@@ -20,27 +22,27 @@ class Solution:
             The length of the longest substring without repeating characters.
         """
 
-        # Initialize the start and end pointers of the sliding window.
+        # Initialize variables:
+        # - start: The starting index of the current substring.
+        # - max_length: The maximum length of a substring without repeating characters found so far.
+        # - char_index_map: A dictionary to store the most recent index of each character.
+
         start = 0
-        end = 0
-
-        # Initialize the maximum length of the substring without repeating characters.
         max_length = 0
+        char_index_map = {}
 
-        # Initialize a set to store the characters in the current window.
-        char_set = set()
+        # Iterate through the string using a sliding window approach:
+        for end in range(len(s)):
+            # If the current character is already in the map and its index is within the current window:
+            if s[end] in char_index_map and char_index_map[s[end]] >= start:
+                # Move the start of the window to the right of the previous occurrence of the character.
+                start = char_index_map[s[end]] + 1
 
-        # Iterate over the string.
-        while end < len(s):
-            # If the current character is not in the set, add it to the set and update the maximum length.
-            if s[end] not in char_set:
-                char_set.add(s[end])
-                max_length = max(max_length, end - start + 1)
-                end += 1
-            # If the current character is in the set, remove the character at the start of the window and move the start pointer forward.
-            else:
-                char_set.remove(s[start])
-                start += 1
+            # Update the index of the current character in the map.
+            char_index_map[s[end]] = end
+
+            # Update the maximum length.
+            max_length = max(max_length, end - start + 1)
 
         # Return the maximum length.
         return max_length
