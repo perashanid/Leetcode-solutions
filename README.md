@@ -5,3 +5,4 @@
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [Solution](easy/1-two-sum.py) |
 | 6 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [Solution](medium\6-zigzag-conversion.py) |
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [Solution](medium\7-reverse-integer.py) |
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Solution](medium\8-string-to-integer-atoi.py) |
