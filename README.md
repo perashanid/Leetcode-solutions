@@ -11,3 +11,4 @@
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [Solution](hard/76-minimum-window-substring.py) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](medium/200-number-of-islands.py) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [Solution](hard/42-trapping-rain-water.py) |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](medium/128-longest-consecutive-sequence.py) |
