@@ -1,0 +1,44 @@
+"""
+Problem: Trapping Rain Water
+Number: 42
+Difficulty: Hard
+Link: https://leetcode.com/problems/trapping-rain-water/
+Date: 2025-10-11
+"""
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
+def trapping_rain_water(height):
+    """
+    Calculates the amount of trapped rainwater in a given elevation map.
+
+    Args:
+        height (list[int]): A list of non-negative integers representing the elevation map.
+
+    Returns:
+        int: The amount of trapped rainwater.
+    """
+
+    if not height:
+        return 0
+
+    n = len(height)
+    left, right = 0, n - 1
+    left_max, right_max = 0, 0
+    water = 0
+
+    while left < right:
+        if height[left] < height[right]:
+            if height[left] >= left_max:
+                left_max = height[left]
+            else:
+                water += left_max - height[left]
+            left += 1
+        else:
+            if height[right] >= right_max:
+                right_max = height[right]
+            else:
+                water += right_max - height[right]
+            right -= 1
+
+    return water

@@ -10,3 +10,4 @@
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [Solution](medium/162-find-peak-element.py) |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [Solution](hard/76-minimum-window-substring.py) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](medium/200-number-of-islands.py) |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [Solution](hard/42-trapping-rain-water.py) |
