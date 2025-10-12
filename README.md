@@ -12,3 +12,4 @@
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [Solution](medium/200-number-of-islands.py) |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [Solution](hard/42-trapping-rain-water.py) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [Solution](medium/128-longest-consecutive-sequence.py) |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Solution](hard/188-best-time-to-buy-and-sell-stock-iv.py) |
