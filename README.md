@@ -15,3 +15,4 @@
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Solution](hard/188-best-time-to-buy-and-sell-stock-iv.py) |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [Solution](medium/146-lru-cache.py) |
 | 148 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [Solution](medium/148-sort-list.py) |
+| 764 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [Solution](medium/764-partition-labels.py) |
