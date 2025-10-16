@@ -18,3 +18,4 @@
 | 764 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | Medium | [Solution](medium/764-partition-labels.py) |
 | 1644 | [Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | Medium | [Solution](medium/1644-lowest-common-ancestor-of-a-binary-tree-ii.py) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [Solution](easy/463-island-perimeter.py) |
+| 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | Easy | [Solution](easy/157-read-n-characters-given-read4.py) |
