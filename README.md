@@ -20,3 +20,4 @@
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | Easy | [Solution](easy/463-island-perimeter.py) |
 | 157 | [Read N Characters Given Read4](https://leetcode.com/problems/read-n-characters-given-read4/) | Easy | [Solution](easy/157-read-n-characters-given-read4.py) |
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Solution](hard/239-sliding-window-maximum.py) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | Hard | [Solution](hard/460-lfu-cache.py) |
