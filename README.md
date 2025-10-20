@@ -8,3 +8,4 @@
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Solution](medium\8-string-to-integer-atoi.py) |
 | 2952 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | Hard | [Solution](hard/2952-minimum-cost-to-make-array-equal.py) |
 | 3001 | [Maximum Subarray Sum After One Operation](https://leetcode.com/problem-placeholder/) | Medium | [Solution](medium/3001-maximum-subarray-sum-after-one-operation.py) |
+| 2870 | [Minimum Operations to Sort an Array by Reversals](https://leetcode.com/problems/minimum-operations-to-sort-an-array-by-reversals/) | Hard | [Solution](hard/2870-minimum-operations-to-sort-an-array-by-reversals.py) |
