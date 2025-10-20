@@ -7,3 +7,4 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Medium | [Solution](medium\7-reverse-integer.py) |
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Solution](medium\8-string-to-integer-atoi.py) |
 | 2952 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) | Hard | [Solution](hard/2952-minimum-cost-to-make-array-equal.py) |
+| 3001 | [Maximum Subarray Sum After One Operation](https://leetcode.com/problem-placeholder/) | Medium | [Solution](medium/3001-maximum-subarray-sum-after-one-operation.py) |
