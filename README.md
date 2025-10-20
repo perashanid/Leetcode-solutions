@@ -12,3 +12,4 @@
 | 2901 | [Longest Non-decreasing Subsequence with Limited Difference](https://leetcode.com/problems/longest-increasing-subsequence/) | Hard | [Solution](hard/2901-longest-non-decreasing-subsequence-with-limited-difference.py) |
 | 2902 | [Maximum Area of Longest Diagonal Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Hard | [Solution](hard/2902-maximum-area-of-longest-diagonal-common-subsequence.py) |
 | 1906 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy | [Solution](easy/1906-minimum-difference-between-highest-and-lowest-of-k-scores.py) |
+| 2749 | [Minimum Operations to Make All Array Elements Equal to Zero](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal-to-zero/) | Hard | [Solution](hard/2749-minimum-operations-to-make-all-array-elements-equal-to-zero.py) |
