@@ -14,3 +14,4 @@
 | 1906 | [Minimum Difference Between Highest and Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy | [Solution](easy/1906-minimum-difference-between-highest-and-lowest-of-k-scores.py) |
 | 2749 | [Minimum Operations to Make All Array Elements Equal to Zero](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal-to-zero/) | Hard | [Solution](hard/2749-minimum-operations-to-make-all-array-elements-equal-to-zero.py) |
 | 2801 | [Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/) | Hard | [Solution](hard/2801-minimum-incompatibility.py) |
+| 2957 | [Remove All Duplicate Letters While Preserving Relative Order with K Removals](https://leetcode.com/problems/remove-duplicate-letters/) | Hard | [Solution](hard/2957-remove-all-duplicate-letters-while-preserving-relative-order-with-k-removals.py) |
