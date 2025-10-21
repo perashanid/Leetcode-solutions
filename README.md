@@ -19,3 +19,4 @@
 | 2306 | [Naming a Company](https://leetcode.com/problems/naming-a-company/) | Hard | [Solution](hard/2306-naming-a-company.py) |
 | 2659 | [Make Array Empty](https://leetcode.com/) | Hard | [Solution](hard/2659-make-array-empty.py) |
 | 2141 | [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | [Solution](hard/2141-maximum-running-time-of-n-computers.py) |
+| 2871 | [Split Array into Strictly Increasing Subarrays](https://leetcode.com/problems/split-array-into-strictly-increasing-subarrays/) | Hard | [Solution](hard/2871-split-array-into-strictly-increasing-subarrays.py) |
