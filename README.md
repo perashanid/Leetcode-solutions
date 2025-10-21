@@ -16,3 +16,4 @@
 | 2801 | [Minimum Incompatibility](https://leetcode.com/problems/minimum-incompatibility/) | Hard | [Solution](hard/2801-minimum-incompatibility.py) |
 | 2957 | [Remove All Duplicate Letters While Preserving Relative Order with K Removals](https://leetcode.com/problems/remove-duplicate-letters/) | Hard | [Solution](hard/2957-remove-all-duplicate-letters-while-preserving-relative-order-with-k-removals.py) |
 | 2467 | [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | Medium | [Solution](medium/2467-most-profitable-path-in-a-tree.py) |
+| 2306 | [Naming a Company](https://leetcode.com/problems/naming-a-company/) | Hard | [Solution](hard/2306-naming-a-company.py) |
