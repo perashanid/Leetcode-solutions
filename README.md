@@ -20,3 +20,4 @@
 | 2659 | [Make Array Empty](https://leetcode.com/) | Hard | [Solution](hard/2659-make-array-empty.py) |
 | 2141 | [Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/) | Hard | [Solution](hard/2141-maximum-running-time-of-n-computers.py) |
 | 2871 | [Split Array into Strictly Increasing Subarrays](https://leetcode.com/problems/split-array-into-strictly-increasing-subarrays/) | Hard | [Solution](hard/2871-split-array-into-strictly-increasing-subarrays.py) |
+| 3100 | [Minimum Cost to Make String Equal](https://leetcode.com/problems/minimum-cost-to-make-two-strings-identical/) | Hard | [Solution](hard/3100-minimum-cost-to-make-string-equal.py) |
