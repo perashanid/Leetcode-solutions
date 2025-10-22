@@ -22,3 +22,4 @@
 | 2871 | [Split Array into Strictly Increasing Subarrays](https://leetcode.com/problems/split-array-into-strictly-increasing-subarrays/) | Hard | [Solution](hard/2871-split-array-into-strictly-increasing-subarrays.py) |
 | 3100 | [Minimum Cost to Make String Equal](https://leetcode.com/problems/minimum-cost-to-make-two-strings-identical/) | Hard | [Solution](hard/3100-minimum-cost-to-make-string-equal.py) |
 | 3200 | [Minimum Cost to Connect All Cities](https://example.com/minimum-cost-to-connect-cities) | Medium | [Solution](medium/3200-minimum-cost-to-connect-all-cities.py) |
+| 3301 | [Maximum Profit Assignment with Skills](https://leetcode.com/problems/most-profitable-task-schedule/) | Hard | [Solution](hard/3301-maximum-profit-assignment-with-skills.py) |
