@@ -23,3 +23,4 @@
 | 3100 | [Minimum Cost to Make String Equal](https://leetcode.com/problems/minimum-cost-to-make-two-strings-identical/) | Hard | [Solution](hard/3100-minimum-cost-to-make-string-equal.py) |
 | 3200 | [Minimum Cost to Connect All Cities](https://example.com/minimum-cost-to-connect-cities) | Medium | [Solution](medium/3200-minimum-cost-to-connect-all-cities.py) |
 | 3301 | [Maximum Profit Assignment with Skills](https://leetcode.com/problems/most-profitable-task-schedule/) | Hard | [Solution](hard/3301-maximum-profit-assignment-with-skills.py) |
+| 3402 | [Minimize XOR Sum of Two Arrays](https://leetcode.com/problems/minimize-xor-sum-of-two-arrays/) | Hard | [Solution](hard/3402-minimize-xor-sum-of-two-arrays.py) |
