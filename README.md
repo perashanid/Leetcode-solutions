@@ -26,3 +26,4 @@
 | 3402 | [Minimize XOR Sum of Two Arrays](https://leetcode.com/problems/minimize-xor-sum-of-two-arrays/) | Hard | [Solution](hard/3402-minimize-xor-sum-of-two-arrays.py) |
 | 3503 | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | Hard | [Solution](hard/3503-minimum-cost-to-make-array-equal.py) |
 | 3604 | [Minimum Operations to Make Subarray Sum K](https://leetcode.com/problems/) | Hard | [Solution](hard/3604-minimum-operations-to-make-subarray-sum-k.py) |
+| 3705 | [Minimize the Difference](https://leetcode.com/) | Medium | [Solution](medium/3705-minimize-the-difference.py) |
