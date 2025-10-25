@@ -33,3 +33,4 @@
 | 4109 | [Minimize the Sum of Two Arrays by Replacing Zeros](https://leetcode.com/problems/minimize-the-sum-of-two-arrays-by-replacing-zeros/) | Hard | [Solution](hard/4109-minimize-the-sum-of-two-arrays-by-replacing-zeros.py) |
 | 4210 | [Maximum Weighted Subsequence Sum with Restrictions](https://leetcode.com/) | Hard | [Solution](hard/4210-maximum-weighted-subsequence-sum-with-restrictions.py) |
 | 4311 | [Maximum Sum of Non-Adjacent Subtrees](https://leetcode.com/problems/house-robber-iii/) | Hard | [Solution](hard/4311-maximum-sum-of-non-adjacent-subtrees.py) |
+| 4412 | [Maximum Subarray Product with at Most K Changes](https://leetcode.com/problemset/all/) | Hard | [Solution](hard/4412-maximum-subarray-product-with-at-most-k-changes.py) |
