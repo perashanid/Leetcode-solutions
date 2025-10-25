@@ -32,3 +32,4 @@
 | 4008 | [Minimum Cost to Make All Characters Equal](null) | Medium | [Solution](medium/4008-minimum-cost-to-make-all-characters-equal.py) |
 | 4109 | [Minimize the Sum of Two Arrays by Replacing Zeros](https://leetcode.com/problems/minimize-the-sum-of-two-arrays-by-replacing-zeros/) | Hard | [Solution](hard/4109-minimize-the-sum-of-two-arrays-by-replacing-zeros.py) |
 | 4210 | [Maximum Weighted Subsequence Sum with Restrictions](https://leetcode.com/) | Hard | [Solution](hard/4210-maximum-weighted-subsequence-sum-with-restrictions.py) |
+| 4311 | [Maximum Sum of Non-Adjacent Subtrees](https://leetcode.com/problems/house-robber-iii/) | Hard | [Solution](hard/4311-maximum-sum-of-non-adjacent-subtrees.py) |
