@@ -29,3 +29,4 @@
 | 3705 | [Minimize the Difference](https://leetcode.com/) | Medium | [Solution](medium/3705-minimize-the-difference.py) |
 | 3806 | [Minimum Weighted Subgraph With Required Vertices](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-vertices/) | Hard | [Solution](hard/3806-minimum-weighted-subgraph-with-required-vertices.py) |
 | 3907 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) | Hard | [Solution](hard/3907-minimum-cost-to-reach-destination-in-time.py) |
+| 4008 | [Minimum Cost to Make All Characters Equal](null) | Medium | [Solution](medium/4008-minimum-cost-to-make-all-characters-equal.py) |
