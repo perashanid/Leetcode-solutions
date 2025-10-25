@@ -28,3 +28,4 @@
 | 3604 | [Minimum Operations to Make Subarray Sum K](https://leetcode.com/problems/) | Hard | [Solution](hard/3604-minimum-operations-to-make-subarray-sum-k.py) |
 | 3705 | [Minimize the Difference](https://leetcode.com/) | Medium | [Solution](medium/3705-minimize-the-difference.py) |
 | 3806 | [Minimum Weighted Subgraph With Required Vertices](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-vertices/) | Hard | [Solution](hard/3806-minimum-weighted-subgraph-with-required-vertices.py) |
+| 3907 | [Minimum Cost to Reach Destination in Time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/) | Hard | [Solution](hard/3907-minimum-cost-to-reach-destination-in-time.py) |
