@@ -34,3 +34,4 @@
 | 4210 | [Maximum Weighted Subsequence Sum with Restrictions](https://leetcode.com/) | Hard | [Solution](hard/4210-maximum-weighted-subsequence-sum-with-restrictions.py) |
 | 4311 | [Maximum Sum of Non-Adjacent Subtrees](https://leetcode.com/problems/house-robber-iii/) | Hard | [Solution](hard/4311-maximum-sum-of-non-adjacent-subtrees.py) |
 | 4412 | [Maximum Subarray Product with at Most K Changes](https://leetcode.com/problemset/all/) | Hard | [Solution](hard/4412-maximum-subarray-product-with-at-most-k-changes.py) |
+| 4513 | [Maximum Product Subarray with at most K Zeroes](https://example.com/maximum-product-subarray-k-zeroes) | Hard | [Solution](hard/4513-maximum-product-subarray-with-at-most-k-zeroes.py) |
