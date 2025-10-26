@@ -36,3 +36,4 @@
 | 4412 | [Maximum Subarray Product with at Most K Changes](https://leetcode.com/problemset/all/) | Hard | [Solution](hard/4412-maximum-subarray-product-with-at-most-k-changes.py) |
 | 4513 | [Maximum Product Subarray with at most K Zeroes](https://example.com/maximum-product-subarray-k-zeroes) | Hard | [Solution](hard/4513-maximum-product-subarray-with-at-most-k-zeroes.py) |
 | 4614 | [Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/) | Hard | [Solution](hard/4614-minimum-number-of-operations-to-make-array-continuous.py) |
+| 4715 | [Maximum Subarray XOR Sum](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | Hard | [Solution](hard/4715-maximum-subarray-xor-sum.py) |
