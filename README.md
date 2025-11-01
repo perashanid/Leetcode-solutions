@@ -40,3 +40,4 @@
 | 4816 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | [Solution](hard/4816-minimum-initial-energy-to-finish-tasks.py) |
 | 1885 | [Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/) | Medium | [Solution](medium/1885-count-pairs-in-two-arrays.py) |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [Solution](medium/787-cheapest-flights-within-k-stops.py) |
+| 1768 | [Merge Strings Alternately with Length Constraints](https://leetcode.com/problems/merge-strings-alternately/) | Medium | [Solution](medium/1768-merge-strings-alternately-with-length-constraints.py) |
