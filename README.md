@@ -38,3 +38,4 @@
 | 4614 | [Minimum Number of Operations to Make Array Continuous](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/) | Hard | [Solution](hard/4614-minimum-number-of-operations-to-make-array-continuous.py) |
 | 4715 | [Maximum Subarray XOR Sum](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) | Hard | [Solution](hard/4715-maximum-subarray-xor-sum.py) |
 | 4816 | [Minimum Initial Energy to Finish Tasks](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks/) | Hard | [Solution](hard/4816-minimum-initial-energy-to-finish-tasks.py) |
+| 1885 | [Count Pairs in Two Arrays](https://leetcode.com/problems/count-pairs-in-two-arrays/) | Medium | [Solution](medium/1885-count-pairs-in-two-arrays.py) |
