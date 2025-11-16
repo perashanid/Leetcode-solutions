@@ -43,3 +43,4 @@
 | 1768 | [Merge Strings Alternately with Length Constraints](https://leetcode.com/problems/merge-strings-alternately/) | Medium | [Solution](medium/1768-merge-strings-alternately-with-length-constraints.py) |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Solution](hard/188-best-time-to-buy-and-sell-stock-iv.py) |
 | 9 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [Solution](medium\9-minimum-cost-to-connect-all-points.py) |
+| 2742 | [Painting the Walls](https://leetcode.com/problems/painting-the-walls/) | Hard | [Solution](hard/2742-painting-the-walls.py) |
