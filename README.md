@@ -42,3 +42,4 @@
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | Medium | [Solution](medium/787-cheapest-flights-within-k-stops.py) |
 | 1768 | [Merge Strings Alternately with Length Constraints](https://leetcode.com/problems/merge-strings-alternately/) | Medium | [Solution](medium/1768-merge-strings-alternately-with-length-constraints.py) |
 | 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [Solution](hard/188-best-time-to-buy-and-sell-stock-iv.py) |
+| 9 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [Solution](medium\9-minimum-cost-to-connect-all-points.py) |
