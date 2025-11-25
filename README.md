@@ -48,3 +48,4 @@
 | 2607 | [Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/) | Hard | [Solution](hard/2607-make-k-subarray-sums-equal.py) |
 | 2741 | [Special Permutation of a Number](https://leetcode.com/problems/special-permutation-of-a-number/) | Hard | [Solution](hard/2741-special-permutation-of-a-number.py) |
 | 2857 | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/) | Medium | [Solution](medium/2857-count-vowel-strings-in-ranges.py) |
+| 1792 | [Maximum Average Pass Ratio](https://leetcode.com/problems/maximum-average-pass-ratio/) | Medium | [Solution](medium/1792-maximum-average-pass-ratio.py) |
