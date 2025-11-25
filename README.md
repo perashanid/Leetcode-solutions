@@ -45,3 +45,4 @@
 | 9 | [Minimum Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | Medium | [Solution](medium\9-minimum-cost-to-connect-all-points.py) |
 | 2742 | [Painting the Walls](https://leetcode.com/problems/painting-the-walls/) | Hard | [Solution](hard/2742-painting-the-walls.py) |
 | 2850 | [Minimum Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) | Medium | [Solution](medium/2850-minimum-days-to-make-m-bouquets.py) |
+| 2607 | [Make K-Subarray Sums Equal](https://leetcode.com/problems/make-k-subarray-sums-equal/) | Hard | [Solution](hard/2607-make-k-subarray-sums-equal.py) |
